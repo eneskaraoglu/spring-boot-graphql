@@ -1,0 +1,23 @@
+type Query {
+    customerById(id: ID): Customer
+}
+
+type Customer {
+    customerId: ID
+    customerName: String
+    customerCode: String
+    customerAddress: String
+    customerType: Int
+    customerAmount: Int
+    inventories: [Inventory!]
+}
+
+type Inventory {
+	inventoryId: ID
+    inventoryName: String
+    inventoryCode: String
+    inventoryAmount: Int
+    inventoryType: Int
+    inventoryPrice: Int
+    customer: Customer
+}

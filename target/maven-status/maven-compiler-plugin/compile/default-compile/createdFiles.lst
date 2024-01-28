@@ -1,0 +1,13 @@
+com\ek\graphql\entity\TInventory.class
+com\ek\graphql\controller\TInventoryCustomerController.class
+com\ek\graphql\services\TCustomerService.class
+com\ek\graphql\entity\TInventoryCustomer.class
+com\ek\graphql\repository\TCustomerRepository.class
+com\ek\graphql\controller\TInventoryController.class
+com\ek\graphql\entity\TCustomer.class
+com\ek\graphql\repository\TInventoryCustomerRepository.class
+com\ek\graphql\repository\TInventoryRepository.class
+com\ek\graphql\controller\TCustomerController.class
+com\ek\graphql\services\TInventoryCustomerService.class
+com\ek\graphql\GraphqlApplication.class
+com\ek\graphql\services\TInventoryService.class

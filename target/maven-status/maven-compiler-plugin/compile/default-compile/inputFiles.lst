@@ -1,0 +1,13 @@
+D:\CODE-BASE\SPRING_BOOT_GRAPHQL\graphql\graphql\src\main\java\com\ek\graphql\entity\TInventoryCustomer.java
+D:\CODE-BASE\SPRING_BOOT_GRAPHQL\graphql\graphql\src\main\java\com\ek\graphql\repository\TInventoryCustomerRepository.java
+D:\CODE-BASE\SPRING_BOOT_GRAPHQL\graphql\graphql\src\main\java\com\ek\graphql\services\TInventoryService.java
+D:\CODE-BASE\SPRING_BOOT_GRAPHQL\graphql\graphql\src\main\java\com\ek\graphql\controller\TCustomerController.java
+D:\CODE-BASE\SPRING_BOOT_GRAPHQL\graphql\graphql\src\main\java\com\ek\graphql\repository\TInventoryRepository.java
+D:\CODE-BASE\SPRING_BOOT_GRAPHQL\graphql\graphql\src\main\java\com\ek\graphql\controller\TInventoryController.java
+D:\CODE-BASE\SPRING_BOOT_GRAPHQL\graphql\graphql\src\main\java\com\ek\graphql\services\TCustomerService.java
+D:\CODE-BASE\SPRING_BOOT_GRAPHQL\graphql\graphql\src\main\java\com\ek\graphql\GraphqlApplication.java
+D:\CODE-BASE\SPRING_BOOT_GRAPHQL\graphql\graphql\src\main\java\com\ek\graphql\entity\TInventory.java
+D:\CODE-BASE\SPRING_BOOT_GRAPHQL\graphql\graphql\src\main\java\com\ek\graphql\repository\TCustomerRepository.java
+D:\CODE-BASE\SPRING_BOOT_GRAPHQL\graphql\graphql\src\main\java\com\ek\graphql\services\TInventoryCustomerService.java
+D:\CODE-BASE\SPRING_BOOT_GRAPHQL\graphql\graphql\src\main\java\com\ek\graphql\controller\TInventoryCustomerController.java
+D:\CODE-BASE\SPRING_BOOT_GRAPHQL\graphql\graphql\src\main\java\com\ek\graphql\entity\TCustomer.java

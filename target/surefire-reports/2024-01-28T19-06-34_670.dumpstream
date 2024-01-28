@@ -1,0 +1,5 @@
+# Created at 2024-01-28T19:06:34.845
+Boot Manifest-JAR contains absolute paths in classpath 'D:\CODE-BASE\SPRING_BOOT_GRAPHQL\graphql\graphql\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
