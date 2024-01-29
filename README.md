@@ -39,3 +39,54 @@ query GetCustomer {
     }
   }
 }
+
+query CustomerByName {
+  customerByName(customerName: "John") {
+    customerId
+    customerName
+    customerCode
+    customerAddress
+    customerType
+    customerAmount
+    inventories {
+      inventoryId
+      inventoryName
+      inventoryCode
+      inventoryAmount
+      inventoryType
+      inventoryPrice
+    }
+  }
+}
+
+query Inventor {
+  inventoryById(id: "1") {
+      inventoryId
+      inventoryName
+      inventoryCode
+      inventoryAmount
+      inventoryType
+      inventoryPrice
+    
+  }
+}
+
+query InventorByName {
+  inventoryByName (inventoryName: "M") {
+      inventoryId
+      inventoryName
+      inventoryCode
+      inventoryAmount
+      inventoryType
+      inventoryPrice
+    	customer{
+            customerId
+            customerName
+            customerCode
+            customerAddress
+            customerType
+            customerAmount
+      }
+    
+  }
+}

@@ -1,6 +1,10 @@
 type Query {
     customerById(id: ID): Customer
+    customerByName(customerName: String): [Customer]
+    inventoryById(id: ID): Inventory
+    inventoryByName(inventoryName: String): [Inventory]
 }
+
 
 type Customer {
     customerId: ID

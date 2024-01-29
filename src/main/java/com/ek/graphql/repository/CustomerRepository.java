@@ -9,5 +9,5 @@ import com.ek.graphql.entity.Customer;
 
 @Repository
 public interface CustomerRepository extends JpaRepository<Customer, Long> {
-    List<Customer> findByCustomerName(String customerName);
+    List<Customer> findByCustomerNameContaining(String customerName);
 }

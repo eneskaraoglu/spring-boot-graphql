@@ -25,12 +25,16 @@ public class CustomerService {
 
     public Customer getCustomerById(Long id) {
         Customer customer = customerRepository.findById(id).orElse(null);
-        if (customer != null) {
+       /* if (customer != null) {
             List<Inventory> inventories = inventoryRepository.findByCustomer(customer);
             System.out.println("inventories.size():"+inventories.size());
             customer.setInventories(inventories); // Bu satırı Customer sınıfında bir listeye atama yaparak önceden tanımlamalısınız
-        }
+        }*/
         return customer;
+    }
+    
+    public List<Customer> getCustomerName(String customerName) {
+        return customerRepository.findByCustomerNameContaining(customerName);
     }
 
     // Diğer servis metodları (örneğin: createCustomer, updateCustomer, deleteCustomer) buraya eklenebilir

@@ -10,6 +10,6 @@ import java.util.List;
 
 @Repository
 public interface InventoryRepository extends JpaRepository<Inventory, Long> {
-    List<Inventory> findByInventoryName(String inventoryName);
+    List<Inventory> findByInventoryNameContaining(String inventoryName);
     List<Inventory> findByCustomer(Customer customer);
 }
