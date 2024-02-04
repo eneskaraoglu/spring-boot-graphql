@@ -1,32 +1,30 @@
-This project spring boot graphql example;
+This project is a Spring Boot GraphQL example.
 
-It uses H2 database or (postgrsql database)
+It uses H2 database or PostgreSQL database.
 
-Two tables ; inventory and customer
-inventory has foreinkey with customer_id (one to many)
+Two tables: inventory and customer. Inventory has a foreign key relationship with customer_id (one to many).
 
-spring boot; uses jpa repository, h2 database ( or postgresql)
-if you need some sql statemnt for data.sql and table.sql
+Spring Boot uses JPA repository, H2 database (or PostgreSQL). If you need some SQL statements for data.sql and table.sql.
 
-and some graphql setup;
-resources/graphql/schema.graphqls
+And some GraphQL setup:
 
-The Query ; @QueryMapping (GraphqlController)
-type (entity)
+Resources/graphql/schema.graphqls
+
+The Query: @QueryMapping(GraphqlController) type (entity)
 
 http://localhost:8080/graphiql?path=/graphql
 
-and some exaple;
+And some examples:
 
-query InventorByName {
-  inventoryByName (inventoryName: "M") {
+query InventoryByName {
+  inventoryByName(inventoryName: "M") {
       inventoryId
       inventoryName
       inventoryCode
       inventoryAmount
       inventoryType
       inventoryPrice
-    	customer{
+      customer {
             customerId
             customerName
             customerCode
@@ -34,11 +32,10 @@ query InventorByName {
             customerType
             customerAmount
       }
-    
   }
 }
 
-query CustomerS {
+query CustomerByName {
   customerByName(customerName: "John") {
     customerId
     customerName
